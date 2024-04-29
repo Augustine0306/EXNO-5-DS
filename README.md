@@ -18,43 +18,108 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/8404cd24-c182-4213-a646-6599a44a231c)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/c0835d36-e17e-4dee-9fe7-bde7df97d4d2)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/80612b4e-f83f-4409-ac78-f92c79676f1d)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/9b43f6fb-6098-4425-8bc9-ab7cad785de2)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/719cc4ba-7d85-4d66-bd9f-66d50b72a433)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/10ed8826-381c-4b42-984c-f4b99a61e527)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/307b238d-c692-47e7-a3f3-54556e62d039)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/6c2d65b6-cb33-43cf-b1f0-712042bbbbee)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/ab3c1049-9be1-4f63-9bfe-3811e4e4d2a1)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/43449a1f-88b8-495a-aba4-283c6b89b067)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/53353a18-93a0-4e07-9b72-a7ee891d727d)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/5c8fd1cc-490a-4577-b654-809c928c2a94)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/ceed1646-0d60-4088-9f08-f3edcc86c62b)
-## Area Chart
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/a5e558f3-4e2a-4a83-ac87-2faecca69a25)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/325996a3-647d-4215-9463-3417ce3e3680)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/80e66367-61ed-45d7-b3a0-3bd09e439e2a)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/32780d52-f657-47ac-9120-58cbb84f9f7a)
-## Spline Chart
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/d829442a-7686-45bb-9f7d-8d2d459c1b86)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/853f043c-567c-4e8b-bb65-dcb330083c8a)
-## Bar Chart
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/20703561-ad0c-4bc6-aed1-617e2e754324)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/936c93c8-3dd3-422a-ba6a-9705ebaee400)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/9edd99c8-83d4-41f6-b8a8-7e4b7604e3ea)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/be9fee35-f5c7-484c-a8ee-6fd21f9f0bd6)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/6c4bd326-0857-4b18-a08e-87d09850dc84)
-## Histogram
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/3da913e4-8948-4ee8-819b-dc6bc928a92b)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/2f2e5f6f-3a1c-4e1a-b9d2-1daf2e4021fe)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/c76027e4-c293-4946-a0ef-c88835f50edd)
-## Box Plot
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/c59cc9ed-acee-437d-9c6b-2497e03fba8b)
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/493f5e3f-0e3e-4a81-b238-d84d87d1c0d6)
-## Pie Chart
-![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/064b38f2-5771-45b9-ba79-dd9a0144e17b)
+```python
+import matplotlib.pyplot as plt
+x_values=[0,1,2,3,4,5]
+y_values=[0,1,4,9,16,25]
+plt.plot(x_values,y_values)
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/8d37b088-143e-4f9e-a809-f36abd824ff1)
+```python
+import matplotlib.pyplot as plt
+x=[1,2,3]
+y=[2,4,1]
+plt.plot(x,y)
+plt.xlabel('x-axis')
+plt.ylabel("y-axis")
+plt.title('My first grpah!')
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/4b0e6974-4a99-4ba9-bb18-8fcb2de3496a)
+```python
+import matplotlib.pyplot as plt
+x1=[1,2,3]
+y1=[2,4,1]
+plt.plot(x1,y1,label='line 1')
+x2=[1,2,3]
+y2=[4,1,3]
+plt.plot(x2,y2,label='line 2')
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title("two lines on same grapg!")
+plt.legend()
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/75a32970-b7eb-4bff-91fb-790d76219aed)
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+x=[1,2,3,4,5]
+y1=[10,12,14,16,18]
+y2=[5,7,9,11,13]
+y3=[2,4,6,8,10]
+plt.fill_between(x,y1,color='blue')
+plt.fill_between(x,y2,color='green')
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/89c87c88-35b5-4ca6-b994-381b338ee648)
+```python
+plt.stackplot(x,y1,y2,y3,labels=['line1','line2','line3'])
+plt.legend(loc='upper left')
+plt.title('stacked line chart')
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/3148ad2e-2b1e-460d-89bb-5197a2a635f4)
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+values=[5,6,3,7,2]
+names=["A","B","C","D","E"]
+plt.bar(names,values,color='green')
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/41e804be-9970-4fbb-986e-6bdf6d5b5f91)
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
-
+ages=[2,5,70,40,30,45,50,45,43,40,44,60,7,13,57,18,90,77,32,21,20,40]
+range = (0, 100)
+bins=10
+plt.hist(ages,bins,range,color='green',histtype='bar',rwidth=0.8)
+plt.xlabel('age')
+plt.ylabel('no of people')
+plt.title('histogram')
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/b5b1fe7a-aaad-4c30-82d1-42918996089d)
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+np.random.seed(0)
+data=np.random.normal(loc=0,scale=1,size=100)
+data
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/8f5ac038-2099-4999-9b1b-1138cc3d984f)
+```python
+fig,ax=plt.subplots()
+ax.boxplot(data)
+ax.set_xlabel("data")
+ax.set_ylabel("values")
+ax.set_title("box plot")
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/a6fc9060-1637-48ab-b95c-dfc789e4d798)
+```python
+import matplotlib.pyplot as plt
+activities=['eat','sleep','work','play']
+slices=[3,7,8,6]
+colors=['r','y','g','b']
+plt.pie(slices,labels = slices,colors=colors,startangle=90,shadow = True,explode = (0,0,0.1,0),radius=1.2,autopct='%1.1f%%')
+plt.legend()
+plt.show()
+```
+![image](https://github.com/Augustine0306/EXNO-5-DS/assets/119404460/da790ff0-33a9-4864-aeed-776610a34b49)
 # Result:
- Thus the program to Perform Data Visualization using matplot python library for the given datas is been implemented.
+Thus, Data Visualization using matplot python library is implemented successfully.
